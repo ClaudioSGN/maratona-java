@@ -6,6 +6,6 @@ public class Aula04Operadores {
         int numero01 = 10;
         double numero02 = 20;
         double resultado = numero01 / numero02;
-        System.out.println(resultado);
+        System.out.println("O resultado é: "+resultado);
     }
 }
