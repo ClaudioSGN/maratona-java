@@ -37,5 +37,26 @@ public class Aula04Operadores {
         float valorPlaystation = 5000F;
         boolean isPlaystation5Affordable = valorTotalCCorrente > valorPlaystation || valorTotalCPoupanca > valorPlaystation;
         System.out.println("isPlaystation5Affordable "+isPlaystation5Affordable);
+
+        // =, +=, -=, *=, /=, %=
+        double bonus = 1800; // 1800
+        bonus += 1000; // 2800
+        bonus -= 1000; // 1800
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        // ++, --
+        int contador = 0;
+        contador += 1; // contador = contador + 1;
+        contador++;
+        contador--;
+        ++contador;
+        --contador;
+        int contador2 = 0;
+        System.out.println(contador2++);
+        System.out.println(contador2);
+        // Quando se coloca a atribuição após o nome da variável no println, ele executa o comando após mostrar na tela.
     }
 }
