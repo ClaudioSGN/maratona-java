@@ -2,7 +2,7 @@ package academy.devg.maratonajava.introducao;
 
 public class Aula05EstruturasCondicionais04Exercicio {
     //£ 0 £ 34,712 9.70%
-    //£ 34.713  £ 68.507   37.55
+    //£ 34.713  £ 68.507   3755
     //£ 68,508   49.50%
     public static void main(String[] args) {
         double salarioAnual = 25000;
